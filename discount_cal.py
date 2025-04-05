@@ -17,5 +17,5 @@ discount_percent = float(input("Enter the discount percentage: "))
 # Calculate the final price using the calculate_discount function
 final_price = calculate_discount(original_price, discount_percent)
 
-# Print the final price
+# Print the final price of the product
 print(f"The final price is: ${final_price:.2f}")
